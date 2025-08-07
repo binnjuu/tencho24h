@@ -1,0 +1,446 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	border: 0;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+/* 置頂工具列 */
+.toolbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 2vw 10vw;
+	background-color: #f1f1f1;
+}
+
+.toolbar > * {
+	flex-basis: 30vw;
+}
+
+.free-test-btn {
+	background-color: red;
+	color: #f1f1f1;
+	font-size: 5vw;
+	border-radius: 25vw;
+	padding: 0 5%;
+	font-weight: bold;
+}
+
+.free-test-btn:active {
+	font-size: 3.5vw;
+}
+
+/* 宣傳大圖 */
+.main-block {
+	background-color: #21a3e1;
+	height: 40vw;
+	display: flex;
+	justify-content: center;
+	color: #f1f1f1;
+	align-items: center;
+	gap: 5vw;
+	margin-bottom: 15vw;
+}
+
+.main-block > * {
+	flex-basis: 50vw;
+}
+
+h1 {
+	font-size: calc(8vw - 5%);
+}
+
+h2 {
+	font-size: 3vw;
+}
+
+.main-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 1vw;
+}
+
+.test-now-btn {
+	background-color: black;
+	color: #f1f1f1;
+	font-size: 5vw;
+	border-radius: 25vw;
+	padding: 2vw 5vw;
+	font-weight: bold;
+}
+
+.test-now-btn:active {
+	color: #b1b1b1;
+	background-color: white;
+}
+
+.black-line {
+	flex-basis: 0.2vw;
+	height: 25vw;
+	background-color: black;
+}
+
+.main-block-image {
+	margin-top: 20vw;
+	flex-basis: 60vw;
+}
+
+/* detail-block 解決您的團購大小事 */
+.detail-block {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5vw;
+}
+
+.TenCho24H-block {
+	color: #f1f1f1;
+	background-color: #00679c;
+	font-size: calc(8vw - 5%);
+	padding: 2vw 5vw;
+	margin-bottom: 2vw;
+	text-align: center;
+	margin: 0 10vw;
+}
+
+.detail-block > p {
+	font-size: 5vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+.hr-line {
+	height: 0.3vw;
+	margin: 0 5vw;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.small-hr-line {
+	height: 1vw;
+	width: 15vw;
+	background-color: #00679c;
+	margin: 2vw 0;
+}
+
+.img-left {
+	display: flex;
+	justify-content: center;
+	gap: 3vw;
+	align-items: flex-end;
+}
+
+.img-right {
+	display: flex;
+	justify-content: center;
+	gap: 3vw;
+	align-items: flex-end;
+}
+
+.img-left > *,
+.img-right > * {
+	flex-basis: 40vw;
+}
+
+h4 {
+	font-size: 5vw;
+}
+
+.img-left p,
+.img-right p {
+	font-size: 3vw;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+}
+
+.img-right p {
+	text-align: right;
+}
+
+.small-block-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.big-hr-line {
+	height: 2vw;
+	background-color: #00679c;
+}
+
+/* detail-block2 找不到適合的工具嗎 */
+.detail-block2 {
+	height: 40vw;
+	background-image: url(./image/Copilot_20250807_223440.png);
+	background-size: 100% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.detail-block2 > h3 {
+	color: #f1f1f1;
+	font-size: 8vw;
+}
+
+.detail-block2 > p {
+	color: #f1f1f1;
+	font-size: 4vw;
+	background-color: black;
+	padding: 0.5vw 4vw;
+}
+
+/* detail-block3 商機把握 */
+.detail-block3 {
+	height: 40vw;
+	background-image: url(./image/BCO.aee0fadd-ebd8-4503-8582-20964dc772ac.png);
+	background-size: 100% auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.detail-block3 > * {
+	flex-basis: 66vw;
+}
+
+.detail-block3 > img {
+	margin-top: 4vw;
+	flex-basis: 30vw;
+}
+
+.detail-block3-text {
+	display: flex;
+	flex-direction: column;
+	gap: 2vw;
+}
+
+.detail-block3-text > h3 {
+	color: #00679c;
+	font-size: 4vw;
+	margin-left: -5vw;
+}
+
+.detail-block3-text-block-01,
+.detail-block3-text-block-02 {
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+	border: 1vw solid rgba(0, 0, 0, 0.1);
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.detail-block3-text-block-01 {
+	margin-right: 5vw;
+	margin-left: -5vw;
+}
+
+.detail-block3-text-block-01 > h4,
+.detail-block3-text-block-02 > h4 {
+	font-size: 8vw;
+	margin-left: 1vw;
+}
+
+.detail-block3-text-block-01-1,
+.detail-block3-text-block-02-1 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.5vw;
+}
+
+.detail-block3-text-block-01-1 > p,
+.detail-block3-text-block-02-1 > p {
+	font-size: 2.5vw;
+}
+
+p.big {
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+/* detail-block4 營收成長*/
+.detail-block4 {
+	height: 40vw;
+	background-image: url(./image/BCO.c81d7901-fe8b-47f4-9d43-684d01a45244.png);
+	background-size: 100% auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.detail-block4-text {
+	display: flex;
+	flex-direction: column;
+	gap: 2vw;
+	text-align: right;
+}
+
+.detail-block4-text > h3 {
+	color: #00679c;
+	font-size: 4vw;
+	text-align: left;
+	margin-left: 4vw;
+}
+
+.detail-block4-text-block-03,
+.detail-block4-text-block-04 {
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+	border: 1vw solid rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.detail-block4-text-block-03 {
+	margin-right: 40vw;
+}
+
+.detail-block4-text-block-04 {
+	margin-right: 28vw;
+	margin-left: 8vw;
+}
+
+.detail-block4-text-block-03 > h4,
+.detail-block4-text-block-04 > h4 {
+	font-size: 8vw;
+	margin: 1vw 0;
+}
+
+.detail-block4-text-block-03-1,
+.detail-block4-text-block-04-1 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.5vw;
+}
+
+.detail-block4-text-block-03-1 > p,
+.detail-block4-text-block-04-1 > p {
+	font-size: 2.5vw;
+}
+
+.detail-block4-text p.big {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+/* .detail-block5 如何上手 */
+.detail-block5 {
+	height: 40vw;
+	background-image: url(./image/BCO.5ae0df6b-ae5d-46b1-b330-21139c249575.png);
+	background-size: 100% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2vw;
+	text-align: center;
+}
+
+.detail-block5 > h3 {
+	color: #f1f1f1;
+	font-size: 6vw;
+}
+
+.detail-block5 > p {
+	color: #f1f1f1;
+	font-size: 3vw;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 0.5vw 4vw;
+}
+
+/* detail-block6 LINE */
+.detail-block6 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.detail-block6-container {
+	height: 50vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 10vw;
+}
+
+.detail-block6-small-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2vw;
+}
+
+.detail-block6-container img {
+	height: 25vw;
+	width: auto;
+}
+
+.detail-block6-container h4 {
+	font-size: 2.5vw;
+}
+
+.detail-block6-container p {
+	font-size: 1.5vw;
+}
+
+.line-logo {
+	background-color: #31ae36;
+	margin-top: 5vw;
+	padding: 0.5vw 10vw;
+	font-size: 5vw;
+	border-radius: 25vw;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+/* detail-block7 註冊 */
+.detail-block7 {
+	height: 40vw;
+	background-image: url(./image/BCO.201ddcad-8f90-4df9-bc03-a55a395f5d16.png);
+	background-size: 100% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3vw;
+}
+
+.detail-block7 > h3 {
+	font-size: 4vw;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.register-btn {
+	font-size: 5vw;
+	padding: 3vw 20vw;
+	font-weight: bold;
+	color: #f1f1f1;
+	background-color: #efbc25;
+}
+
+.register-btn:active {
+	color: #b1b1b1;
+	background-color: white;
+}
+
+/* footer */
+.footer-block {
+	height: 20vw;
+	background-color: #242424;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-block > p {
+	font-size: 4vw;
+	color: #f1f1f1;
+	margin: 0 5vw;
+}
