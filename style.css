@@ -5,6 +5,10 @@
 	border: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .container {
 	margin: 0 auto;
 }
@@ -403,4 +407,92 @@ footer > p {
 	font-size: 4vw;
 	color: #f1f1f1;
 	margin: 0 5vw;
+}
+
+/* 免費試用按鈕懸浮視窗 */
+.modal-overlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-window {
+	background: #fff;
+	padding: 3vw 5vw;
+	border-radius: 1vw;
+	min-width: 300px;
+	max-width: 90vw;
+	position: relative;
+	text-align: center;
+}
+
+.modal-close {
+	position: absolute;
+	right: 1vw;
+	top: 1vw;
+	font-size: 3vw;
+	cursor: pointer;
+}
+
+.modal-window > h2 {
+	margin-bottom: 3vw;
+}
+
+/* 立即體驗按鈕抖動效果 */
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		transform: translateX(-5px);
+	}
+	20%,
+	40%,
+	60%,
+	80% {
+		transform: translateX(5px);
+	}
+}
+
+.test-now-btn.shake {
+	animation: shake 0.5s;
+	animation-iteration-count: 1;
+}
+
+/* 元素滑入 */
+.img-left,
+.img-right {
+	opacity: 0;
+	transform: translateX(0);
+	transition: opacity 0.8s, transform 0.8s;
+}
+
+.img-left.slide-in {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.img-right.slide-in {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.img-left {
+	transform: translateX(-80px);
+}
+
+.img-right {
+	transform: translateX(80px);
 }
