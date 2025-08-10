@@ -136,6 +136,7 @@ h2 {
 	margin-bottom: 2vw;
 	text-align: center;
 	margin: 0 10vw;
+	box-shadow: 1vw 1.5vw 0 0 #efbc25;
 }
 
 .intro > p {
